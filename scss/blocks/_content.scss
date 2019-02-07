@@ -1,0 +1,45 @@
+#content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  width: 100%;
+  #news {
+    width: 350px;
+    height: 560px;
+    background-color: $title-footer-nav-main-color;
+    color: rgb(255, 255, 255);
+    position: relative;
+    margin-left: 210px;
+    margin-right: 59px;
+    h2 {
+      font-size: $content-size-title;
+      font-weight: 700;
+      position: absolute;
+      left: 33px;
+      top: 44px;
+      margin: 0;
+    }
+    .archive {
+      float: right;
+      padding-right: 52px;
+      text-decoration: underline;
+    }
+  }
+  #company {
+    width: 569px;
+    height: 493px;
+    color: $title-footer-nav-main-color;
+    margin-right: 212px;
+    h2 {
+      font-size: $content-size-title;
+      margin-top: 0;
+    }
+  }
+  .italic {
+    font-style: italic;
+  }
+  .block-text {
+    padding: 88px 52px 0 33px;
+  }
+}

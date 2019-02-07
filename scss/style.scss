@@ -1,0 +1,14 @@
+//fonts
+@import "global/typography";
+
+//variables
+@import "global/variables";
+@import "global/mixins";
+@import "global/global-style";
+
+//blocks
+@import 'blocks/header';
+@import 'blocks/content';
+@import 'blocks/footer';
+@import 'blocks/menu';
+@import 'blocks/slider';

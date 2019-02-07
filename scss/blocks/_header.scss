@@ -1,0 +1,41 @@
+#header {
+  @include container-body;
+  background-color: $header-color;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 230px;
+  color: $title-footer-nav-main-color;
+  #logo-block {
+    display: flex;
+    width: 273px;
+    height: 100px;
+    align-items: center;
+    padding: 65px 210px;
+    img {
+      width: 100px;
+    }
+  }
+  #numbers {
+    width: 256px;
+    height: 81px;
+    padding: 65px 210px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    p {
+      margin: 0;
+      line-height: 46px;
+    }
+  }
+  .text-company {
+    margin-left: 8px;
+    h1 {
+      font-size: $h1-size;
+    }
+    .subtitle {
+      font-size: 0.7rem;
+    }
+  }
+}
