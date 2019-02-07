@@ -45,7 +45,7 @@ gulp.task('sass', function() {
     }))
     .pipe($.notify({
       title: "SASS Compiled",
-      message: "Your CSS files are ready Maslo",
+      message: "Your CSS files are ready Julia",
       onLast: true
     }));
 });

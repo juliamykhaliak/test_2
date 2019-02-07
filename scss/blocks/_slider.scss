@@ -4,9 +4,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
- img {
-   overflow: hidden;
-   width: 1248px;
-   height: 462px;
- }
+  height: 400px;
+  .wrap-slider {
+    padding: 0 10px;
+  }
+  img {
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+  }
 }

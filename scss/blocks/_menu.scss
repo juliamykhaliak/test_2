@@ -1,22 +1,29 @@
 #menu {
   background-color: $title-footer-nav-main-color;
+  height: 80px;
   .navigation-links {
     display: flex;
     justify-content: space-evenly;
     margin: 0;
-    padding: 26px 251px 27px 247px;
+    padding-left: 0;
+    padding-top: 26px;
+  }
+  .menu-wrap {
+    width: 100%;
+    padding: 0 10px;
   }
   li {
+    white-space: nowrap;
     list-style-type: none;
     &:nth-child(1),
     &:nth-child(2),
     &:nth-child(3),
     &:nth-child(4) {
       border-right: 2px rgb(255, 255, 255) solid;
-      padding: 0 9px;
+      padding: 0 3%;
     }
     &:last-child {
-      padding-left: 9px;
+      padding-left: 3%;
     }
   }
   a {

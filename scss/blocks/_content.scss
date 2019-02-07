@@ -1,17 +1,18 @@
 #content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   padding-top: 30px;
-  width: 100%;
+  .content-wrap {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 195px;
+  }
   #news {
     width: 350px;
     height: 560px;
     background-color: $title-footer-nav-main-color;
     color: rgb(255, 255, 255);
     position: relative;
-    margin-left: 210px;
-    margin-right: 59px;
     h2 {
       font-size: $content-size-title;
       font-weight: 700;
@@ -30,7 +31,6 @@
     width: 569px;
     height: 493px;
     color: $title-footer-nav-main-color;
-    margin-right: 212px;
     h2 {
       font-size: $content-size-title;
       margin-top: 0;
