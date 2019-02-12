@@ -1,5 +1,9 @@
 #content {
   padding-top: 30px;
+  .wrapper-news {
+    min-width: 350px;
+    padding-bottom: 195px;
+  }
   .content-wrap {
     width: 100%;
     display: flex;
@@ -28,6 +32,7 @@
     }
   }
   #company {
+    padding-bottom: 195px;
     width: 569px;
     height: 493px;
     color: $title-footer-nav-main-color;

@@ -13,4 +13,7 @@
     width: 100%;
     height: auto;
   }
+  @media all and (max-width: 1248px) {
+    display: none;
+  }
 }
