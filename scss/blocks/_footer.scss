@@ -22,9 +22,10 @@
   display: flex;
   #footer-navigation-list {
     list-style-type: none;
-    padding: 0 294px 0 10px;
+    padding: 0 24px 0 10px;
     overflow: auto;
     margin-top: 0;
+    margin-right: 270px;
     a {
       text-decoration: underline;
       color: rgb(255, 255, 255);
