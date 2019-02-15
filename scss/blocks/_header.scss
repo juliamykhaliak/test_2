@@ -4,7 +4,6 @@
   height: 230px;
   color: $title-footer-nav-main-color;
   display: flex;
-
   .header-wrap {
     display: flex;
     justify-content: space-between;
@@ -14,19 +13,16 @@
     .logo-block-wrapper {
       min-width: 273px;
     }
-
     #logo-block {
       display: flex;
       width: 273px;
       height: 100px;
       align-items: center;
       padding: 65px 0;
-
       img {
         width: 100px;
       }
     }
-
     #numbers {
       width: 256px;
       height: 81px;
@@ -34,20 +30,16 @@
       font-size: 40px;
       font-weight: 400;
       padding: 45px 0 71px 0;
-
       p {
         margin: 0;
         line-height: 46px;
       }
     }
-
     .text-company {
       margin-left: 8px;
-
       h1 {
         font-size: $h1-size;
       }
-
       .subtitle {
         font-size: 0.7rem;
       }

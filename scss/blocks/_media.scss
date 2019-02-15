@@ -1,0 +1,124 @@
+@media screen and (max-width: $landscape-iphone-x) {
+  #header {
+    height: auto;
+    .header-wrap {
+      flex-direction: column;
+      margin: 0;
+      .text-company {
+        .subtitle {
+          line-height: 12px;
+        }
+      }
+      .logo-block-wrapper {
+        min-width: unset;
+        width: 57%;
+
+      }
+      #logo-block {
+        padding: 12px 0;
+        width: 100%;
+      }
+      #numbers {
+        padding: 12px 0 20px;
+        width: 100%;
+        height: auto;
+        p {
+          line-height: 24px;
+          font-size: 20px;
+          text-align: center;
+        }
+      }
+    }
+
+  }
+  .container {
+    max-width: 96%;
+  }
+  #menu {
+    height: auto;
+    .navigation-links {
+      flex-direction: column;
+      text-align: center;
+      padding-top: 0;
+      li {
+        border: none;
+        padding: 2px 0;
+        a {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+  #content {
+    padding: 20px 10px 0 10px;
+      .block-text {
+      padding: 45px 22px 0 22px;
+    }
+    #news {
+      width: 100%;
+      height: auto;
+      h2 {
+        font-size: 1.5rem;
+        left: 22px;
+        top: 22px;
+      }
+      .archive {
+        float: unset;
+        margin: 0;
+        padding: 5px 30px 20px 22px;
+        text-align: right;
+      }
+    }
+    .content-wrap {
+      flex-direction: column;
+      padding-bottom: 0;
+    }
+    .wrapper-news {
+      min-width: unset;
+      width: 100%;
+      padding-bottom: 20px;
+    }
+    #company {
+      width: 100%;
+      height: auto;
+      padding-bottom: 0;
+      h2 {
+        font-size: 1.5rem;
+        margin-bottom: 0;
+      }
+    }
+  }
+  #footer {
+    padding: 10px;
+    position: static;
+    height: auto;
+    .footer-wrapper {
+      padding: 0;
+      flex-direction: column;
+    }
+    #copyright-block {
+      padding-right: 0;
+    }
+    #footer-navigation-list {
+      margin-right: 0;
+      overflow: visible;
+      padding: 0 10px;
+      text-align: center;
+    }
+    .footer-logo {
+      display: flex;
+      justify-content: flex-end;
+      p {
+        height: auto;
+        font-size: 10px;
+        line-height: 12px;
+        padding: 10px 0;
+        width: 117px;
+      }
+      #logo-footer {
+        position: static;
+        padding: 6px 10px 0 0;
+      }
+    }
+  }
+}
